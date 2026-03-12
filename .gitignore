@@ -12,3 +12,5 @@ AGENTS.md.bak-*
 CLAUDE.md.bak-*
 .agentplane/agents/*.bak-*
 .agentplane/policy/**/*.bak-*
+node_modules
+docs/en/.vitepress/dist
