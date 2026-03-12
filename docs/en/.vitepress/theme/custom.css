@@ -1,21 +1,67 @@
 :root {
-  --vp-c-brand-1: #0f766e;
-  --vp-c-brand-2: #115e59;
-  --vp-c-brand-3: #134e4a;
-  --vp-c-brand-soft: rgba(15, 118, 110, 0.14);
-  --vp-home-hero-name-color: #0f172a;
-  --vp-home-hero-image-background-image: radial-gradient(circle at center, rgba(15, 118, 110, 0.18), transparent 68%);
-  --vp-home-hero-image-filter: blur(56px);
+    --vp-c-brand-1: #0f766e;
+    --vp-c-brand-2: #115e59;
+    --vp-c-brand-3: #134e4a;
+    --vp-c-brand-soft: rgba(15, 118, 110, 0.14);
+    --vp-c-bg-alt: #f7fafc;
+    --vp-c-default-soft: rgba(15, 23, 42, 0.04);
+    --vp-c-divider: rgba(15, 23, 42, 0.09);
+    --vp-c-divider-light: rgba(15, 23, 42, 0.06);
+    --vp-home-hero-name-color: #0f172a;
+    --vp-home-hero-image-background-image: radial-gradient(
+        circle at center,
+        rgba(15, 118, 110, 0.18),
+        transparent 68%
+    );
+    --vp-home-hero-image-filter: blur(56px);
+}
+
+html.dark {
+    --vp-c-bg: #08111d;
+    --vp-c-bg-alt: #0b1625;
+    --vp-c-bg-soft: #101c2b;
+    --vp-c-bg-elv: #122031;
+    --vp-c-bg-mute: #162536;
+    --vp-c-default-soft: rgba(148, 163, 184, 0.12);
+    --vp-c-divider: rgba(148, 163, 184, 0.18);
+    --vp-c-divider-light: rgba(148, 163, 184, 0.1);
+    --vp-c-text-1: #ecfdf8;
+    --vp-c-text-2: #b7d4cf;
+    --vp-c-text-3: #86aaa4;
+    --vp-c-brand-1: #5eead4;
+    --vp-c-brand-2: #2dd4bf;
+    --vp-c-brand-3: #14b8a6;
+    --vp-c-brand-soft: rgba(45, 212, 191, 0.16);
+    --vp-home-hero-name-color: #f8fafc;
+    --vp-home-hero-image-background-image: radial-gradient(
+        circle at center,
+        rgba(45, 212, 191, 0.28),
+        transparent 68%
+    );
 }
 
 .VPNavBarTitle .title {
-  letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
 }
 
 .VPFeature {
-  border: 1px solid rgba(15, 23, 42, 0.08);
+    border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+html.dark .VPFeature {
+    border-color: rgba(148, 163, 184, 0.16);
+    background: linear-gradient(
+        180deg,
+        rgba(15, 23, 42, 0.72),
+        rgba(8, 17, 29, 0.92)
+    );
+}
+
+html.dark .VPButton.alt {
+    border-color: rgba(94, 234, 212, 0.24);
+    color: #d1fae5;
 }
 
 .vp-doc a {
-  text-decoration-thickness: 1px;
+    text-decoration-thickness: 1px;
 }

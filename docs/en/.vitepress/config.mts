@@ -2,7 +2,8 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "Suiprophet Docs",
-  description: "Documentation for the Rulebook, Oracle, and Court layers of Suiprophet.",
+  description:
+    "Documentation for the Rulebook, Oracle, and Court layers of Suiprophet.",
   lang: "en-US",
   cleanUrls: true,
   lastUpdated: true,
@@ -13,7 +14,6 @@ export default defineConfig({
       { text: "Rulebook", link: "/rulebook" },
       { text: "Oracle", link: "/oracle" },
       { text: "Court", link: "/court" },
-      { text: "Open Questions", link: "/QUESTIONS" }
     ],
     sidebar: [
       {
@@ -24,19 +24,18 @@ export default defineConfig({
           { text: "Rulebook", link: "/rulebook" },
           { text: "Oracle", link: "/oracle" },
           { text: "Court", link: "/court" },
-          { text: "Open Questions", link: "/QUESTIONS" }
-        ]
-      }
+        ],
+      },
     ],
     search: {
-      provider: "local"
+      provider: "local",
     },
     socialLinks: [
-      { icon: "github", link: "https://github.com/densmirnov/suiprophet-docs" }
+      { icon: "github", link: "https://github.com/densmirnov/suiprophet-docs" },
     ],
     footer: {
       message: "Built with VitePress. Published on GitHub Pages.",
-      copyright: "Copyright © 2026 Suiprophet"
-    }
-  }
+      copyright: "Copyright © 2026 Suiprophet",
+    },
+  },
 });

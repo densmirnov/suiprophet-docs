@@ -28,4 +28,3 @@ features:
 - [Rulebook](/rulebook)
 - [Oracle](/oracle)
 - [Court](/court)
-- [Open Questions and Roadmap](/QUESTIONS)

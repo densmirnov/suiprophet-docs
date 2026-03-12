@@ -10,7 +10,6 @@ In this documentation, `question` is the canonical term. The terms `question` an
 - [Rulebook](./rulebook.md)
 - [Oracle](./oracle.md)
 - [Court](./court.md)
-- [Open Questions and Roadmap](./QUESTIONS.md)
 
 ## End-to-End Flow
 
