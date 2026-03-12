@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Suiprophet Docs"
   text: "Rulebook, Oracle, and Court"
-  tagline: "Minimal English documentation for the modular question and dispute resolution stack on Sui."
+  tagline: "Canonical documentation for the modular question and dispute resolution stack of Suiprophet on Sui."
   actions:
     - theme: brand
       text: Start with the overview

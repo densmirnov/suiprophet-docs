@@ -2,7 +2,7 @@
   "name": "suiprophet-docs",
   "private": true,
   "version": "0.1.0",
-  "description": "English documentation site for Suiprophet powered by VitePress.",
+  "description": "Canonical documentation site for Suiprophet powered by VitePress.",
   "scripts": {
     "docs:dev": "vitepress dev docs/en",
     "docs:build": "vitepress build docs/en",

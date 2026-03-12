@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Suiprophet Docs",
   description:
-    "Documentation for the Rulebook, Oracle, and Court layers of Suiprophet.",
+    "Canonical documentation for the Rulebook, Oracle, and Court layers of Suiprophet.",
   lang: "en-US",
   cleanUrls: true,
   lastUpdated: true,
