@@ -1,6 +1,6 @@
-# Suiprophet Docs
+# DelfiN Docs
 
-This repository contains the canonical documentation site for Suiprophet, built with VitePress and deployed through GitHub Pages.
+This repository contains the canonical documentation site for DelfiN, built with VitePress and deployed through GitHub Pages.
 
 ## Local development
 
