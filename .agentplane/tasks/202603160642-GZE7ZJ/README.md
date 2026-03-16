@@ -1,10 +1,11 @@
 ---
 id: "202603160642-GZE7ZJ"
 title: "Rename Suilprophet to Delfin and update overview/rulebook docs"
-status: "DOING"
+result_summary: "Published docs update with Delfin rebrand and product-overview/rulebook content changes"
+status: "DONE"
 priority: "med"
 owner: "DOCS"
-revision: 8
+revision: 10
 depends_on: []
 tags:
   - "docs"
@@ -15,15 +16,20 @@ plan_approval:
   updated_by: "ORCHESTRATOR"
   note: null
 verification:
-  state: "pending"
-  updated_at: null
-  updated_by: null
-  note: null
-commit: null
+  state: "ok"
+  updated_at: "2026-03-16T06:48:43.956Z"
+  updated_by: "DOCS"
+  note: "Verified: routing check passed, doctor has no errors (known legacy warning only), docs build passed, deployed via GitHub Actions run 23131429774 (success)."
+commit:
+  hash: "03d9828db903bcb0c9a705e8deb082e8897b91b5"
+  message: "📝 GZE7ZJ task: update Delfin docs pages and rulebook note"
 comments:
   -
     author: "DOCS"
     body: "Start: approved docs-only scope, apply four requested content edits, run required checks, then publish updated docs and record verification evidence."
+  -
+    author: "DOCS"
+    body: "Verified: all requested docs edits are live on docs.suiprophet.app, checks passed, and deploy workflow 23131429774 completed successfully."
 events:
   -
     type: "status"
@@ -32,8 +38,21 @@ events:
     from: "TODO"
     to: "DOING"
     note: "Start: approved docs-only scope, apply four requested content edits, run required checks, then publish updated docs and record verification evidence."
+  -
+    type: "verify"
+    at: "2026-03-16T06:48:43.956Z"
+    author: "DOCS"
+    state: "ok"
+    note: "Verified: routing check passed, doctor has no errors (known legacy warning only), docs build passed, deployed via GitHub Actions run 23131429774 (success)."
+  -
+    type: "status"
+    at: "2026-03-16T06:48:51.825Z"
+    author: "DOCS"
+    from: "DOING"
+    to: "DONE"
+    note: "Verified: all requested docs edits are live on docs.suiprophet.app, checks passed, and deploy workflow 23131429774 completed successfully."
 doc_version: 3
-doc_updated_at: "2026-03-16T06:46:15.577Z"
+doc_updated_at: "2026-03-16T06:48:51.827Z"
 doc_updated_by: "DOCS"
 description: "Update docs.suiprophet.app content: rebrand to Delfin, adjust product-overview blocks, add MVP rulebook note, then publish new docs version"
 sections:
@@ -73,6 +92,17 @@ sections:
       Evidence: first query returned no matches (removed terms absent), second and third returned expected matches.
       Scope: content verification for requested page edits.
       Links: docs/en/.vitepress/dist/index.html, docs/en/.vitepress/dist/product-overview.html, docs/en/.vitepress/dist/rulebook.html
+    
+    <!-- BEGIN VERIFICATION RESULTS -->
+    #### 2026-03-16T06:48:43.956Z — VERIFY — ok
+    
+    By: DOCS
+    
+    Note: Verified: routing check passed, doctor has no errors (known legacy warning only), docs build passed, deployed via GitHub Actions run 23131429774 (success).
+    
+    VerifyStepsRef: doc_version=3, doc_updated_at=2026-03-16T06:46:15.577Z, excerpt_hash=sha256:cab53b9a63dd27b8b0c2e11d4cdcd9ecb00a1dd014a12b9010927c941f72b49e
+    
+    <!-- END VERIFICATION RESULTS -->
   Rollback Plan: |-
     - Revert task-related commit(s).
     - Re-run required checks to confirm rollback safety.
@@ -125,6 +155,17 @@ Update docs.suiprophet.app content: rebrand to Delfin, adjust product-overview b
   Evidence: first query returned no matches (removed terms absent), second and third returned expected matches.
   Scope: content verification for requested page edits.
   Links: docs/en/.vitepress/dist/index.html, docs/en/.vitepress/dist/product-overview.html, docs/en/.vitepress/dist/rulebook.html
+
+<!-- BEGIN VERIFICATION RESULTS -->
+#### 2026-03-16T06:48:43.956Z — VERIFY — ok
+
+By: DOCS
+
+Note: Verified: routing check passed, doctor has no errors (known legacy warning only), docs build passed, deployed via GitHub Actions run 23131429774 (success).
+
+VerifyStepsRef: doc_version=3, doc_updated_at=2026-03-16T06:46:15.577Z, excerpt_hash=sha256:cab53b9a63dd27b8b0c2e11d4cdcd9ecb00a1dd014a12b9010927c941f72b49e
+
+<!-- END VERIFICATION RESULTS -->
 
 ## Rollback Plan
 
