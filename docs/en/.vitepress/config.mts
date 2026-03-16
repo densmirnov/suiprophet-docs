@@ -1,9 +1,9 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "Suiprophet Docs",
+  title: "Delfin Docs",
   description:
-    "Canonical documentation for the Rulebook, Oracle, and Court layers of Suiprophet.",
+    "Canonical documentation for the Rulebook, Oracle, and Court layers of Delfin.",
   lang: "en-US",
   cleanUrls: true,
   lastUpdated: true,

@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: "Suiprophet Docs"
+  name: "Delfin Docs"
   text: "Rulebook, Oracle, and Court"
-  tagline: "Canonical documentation for the modular question and dispute resolution stack of Suiprophet on Sui."
+  tagline: "Canonical documentation for the modular question and dispute resolution stack of Delfin on Sui."
   actions:
     - theme: brand
       text: Start with the overview
