@@ -1,6 +1,6 @@
 # Rulebook
 
-Пока в MVP создана 1 версия Rulebook доступная по ссылке https://oracle.suiprophet.app/rulebooks/0x0ddf1d5d3307fc2c196f3238931650ab260957dc7e7599376960d982b84dc414
+In the MVP, a single version of the Rulebook is currently available at the following link https://oracle.suiprophet.app/rulebooks/0x0ddf1d5d3307fc2c196f3238931650ab260957dc7e7599376960d982b84dc414
 
 ## Purpose
 
