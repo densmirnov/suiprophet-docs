@@ -58,8 +58,6 @@ The dispute resolution layer:
 
 This layer is modular: a protocol can choose the specific resolution model and lock it into `Rulebook`.
 
-In the current terminology, `question` and `assertion` refer to the same entity. DelfiN documentation uses `question`.
-
 ## Why Sui
 
 The choice of Sui is based on four properties:
@@ -76,15 +74,3 @@ DelfiN is designed to unlock three categories of effects for the ecosystem:
 - lower development complexity through a shared dispute primitive;
 - new classes of applications that need to finalize event-driven obligations;
 - more on-chain activity through repeated `claim -> challenge -> finality` cycles.
-
-## Base Process
-
-The end-to-end sequence is:
-
-1. A `Rulebook` is created.
-2. A `question` is published in `Oracle` with `Reward`, an answer `Schema`, and `Event time`.
-3. `Answerer` submits an answer and posts `Bond Answerer`.
-4. The answer may be challenged during `Liveness`.
-5. If there is no dispute, the `question` settles automatically.
-6. If there is a dispute, `Court` reviews the case and finalizes the result.
-7. The resulting outcome object becomes available to connected protocols.
